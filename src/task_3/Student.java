@@ -25,7 +25,7 @@ public class Student {
     void setCourseAndGrades(HashMap<String, Double> coursesAndGrades) {
         this.courseAndGrades = coursesAndGrades;
     }
-
+    //get methods
     String getName() {
         return this.name;
     }
@@ -33,7 +33,7 @@ public class Student {
     HashMap<String, Double> getCoursesandGrades() {
         return this.courseAndGrades;
     }
-    //get methods
+
     static int getTotalNumberOfStudents() {
         return totalNumOfStudents;
     }
